@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9175a74d-9942-49ab-9ef6-3e5cf24486ac" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/articlea.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/articlea.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/articleb.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/articleb.html.erb" />
       <change beforePath="$PROJECT_DIR$/app/views/pages/kb.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/kb.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -50,15 +48,14 @@
       <file leaf-file-name="kb.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/kb.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="45">
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="e#312#317#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#!!top" expanded="true" />
-                <element signature="e#1419#1424#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#tbody#0;n#table#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#tbody#0;n#table#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -615,12 +612,12 @@
       <workItem from="1519490770412" duration="1682000" />
       <workItem from="1519599322748" duration="1877000" />
       <workItem from="1519726373128" duration="24000" />
-      <workItem from="1519852926461" duration="5340000" />
+      <workItem from="1519852926461" duration="5643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14154000" />
+    <option name="totallyTimeSpent" value="14457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1173,15 +1170,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/kb.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="45">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#312#317#0#HTML" expanded="true" />
             <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#2;n#!!top" expanded="true" />
-            <element signature="e#1419#1424#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#tbody#0;n#table#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#tbody#0;n#table#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
