@@ -48,11 +48,9 @@
         <entry file="file://$PROJECT_DIR$/app/views/pages/kb.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="21" selection-end-column="20" />
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#ul#0;n#!!top" expanded="true" />
-                <element signature="e#872#877#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="e#639#644#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -466,12 +464,12 @@
       <workItem from="1519490770412" duration="1682000" />
       <workItem from="1519599322748" duration="1877000" />
       <workItem from="1519726373128" duration="24000" />
-      <workItem from="1519852926461" duration="3664000" />
+      <workItem from="1519852926461" duration="3972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12478000" />
+    <option name="totallyTimeSpent" value="12786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -882,11 +880,9 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/kb.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="21" selection-end-column="20" />
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="e#872#877#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="e#639#644#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
