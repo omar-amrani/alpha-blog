@@ -20,4 +20,8 @@ class PagesController < ApplicationController
 
   end
 
+  def articlec
+
+  end
+
 end
