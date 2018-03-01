@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'kb', to: 'pages#kb'
   get 'kb/article-a' , to: 'pages#articlea'
   get 'kb/article-b' , to: 'pages#articleb'
-  get 'kb/article-c' , to: 'pages#articlec'
+  get 'kb/test/article-c' , to: 'pages#articlec'
   get 'kb/test' , to: 'pages#test'
   resources :articles
 end
