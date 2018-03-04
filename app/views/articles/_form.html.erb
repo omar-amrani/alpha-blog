@@ -1,43 +1,38 @@
-<% if @article.errors.any? %>
+<%= render 'shared/errors', obj: @article %>
 
-  <h2>The following errors prevented the article from getting created</h2>
+<%= form_for(@article, :html => {class: "form-horizontal", role: "form"}) do |f| %>
 
-  <ul>
+  <div class="form-group">
 
-    <% @article.errors.full_messages.each do |msg| %>
+    <%= f.label :title, class: "col-sm-2 control-label" %>
+  <div class="col-sm-8">
+    <%= f.text_field :title, class: "form-control", placeholder: "Title of the article" %>
+  </div>
 
-      <li><%= msg %></li>
+  </div>
 
-    <% end %>
 
-  </ul>
 
-<% end %>
+  <div class="form-group">
 
-<%= form_for @article do |f| %>
+    <%= f.label :description, class: "col-sm-2 control-label" %>
+    <div class="col-sm-8">
+      <%= f.text_area :description,class: "form-control", rows: 10,  placeholder: "Body of the article", autofocus: true %>
+    </div>
 
-  <p>
+  </div>
 
-    <%= f.label :title %><br/>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
 
-    <%= f.text_field :title %>
+    <%= f.submit class: "btn btn-primary btn-lg" %>
 
-  </p>
+    </div>
 
-  <p>
-
-    <%= f.label :description %><br/>
-
-    <%= f.text_area :description %>
-
-  </p>
-
-  <p>
-
-    <%= f.submit %>
-
-  </p>
+  </div>
 
 <% end %>
+<div class="col-xs-offset-4">
 
-<%= link_to "Back to articles listing", articles_path %>
+[ <%= link_to "Cancel request and return to articles listing", articles_path %> ]
+</div>
