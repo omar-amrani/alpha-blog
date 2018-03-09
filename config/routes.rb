@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   get 'kb/test/article-c' , to: 'pages#articlec'
   get 'kb/test' , to: 'pages#test'
   resources :articles
+  get 'signup', to: 'users#new'
+  resources :users, except: [:new]
 end
