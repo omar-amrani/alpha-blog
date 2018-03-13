@@ -9,5 +9,8 @@ Rails.application.routes.draw do
   get 'kb/test' , to: 'pages#test'
   resources :articles
   get 'signup', to: 'users#new'
+  get 'login', to: 'sessions#new'
+  post 'login', to: 'sessions#create'
+  delete 'logout', to: 'sessions#destroy'
   resources :users, except: [:new]
 end
