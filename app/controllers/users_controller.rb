@@ -41,6 +41,18 @@ class UsersController < ApplicationController
     @users = User.paginate(page: params[:page], per_page: 5)
   end
 
+  def destroy
+
+    @user = User.find(params[:id])
+
+    @user.destroy
+
+    flash[:danger] = "User and all articles created by user have been deleted"
+
+    redirect_to users_path
+
+  end
+
   def set_user
     @user = User.find(params[:id])
   end
