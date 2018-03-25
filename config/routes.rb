@@ -14,5 +14,8 @@ Rails.application.routes.draw do
   delete 'logout', to: 'sessions#destroy'
   resources :users, except: [:new]
   resources :categories
+  namespace :api do
+    resources :articles
+  end
 
 end
