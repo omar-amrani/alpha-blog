@@ -30,6 +30,7 @@ class ApplicationController < ActionController::Base
             message: "Resource not found"
         }
       end
+
     end
   end
 end
