@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
   helper_method :current_user, :logged_in?
+  include Error::ErrorHandler
 
   def current_user
     @current_user ||= User.find(session[:user_id]) if session[:user_id] #return current user if doesn't exist hit the db
@@ -16,8 +17,8 @@ class ApplicationController < ActionController::Base
       redirect_to root_path
     end
   end
-
-  rescue_from ActiveRecord::RecordNotFound, :with => :render_404
+=begin
+  #rescue_from ActiveRecord::RecordNotFound, :with => :render_404
 
   def render_404
     Rails.logger.info "This is a 404 issue"
@@ -33,5 +34,6 @@ class ApplicationController < ActionController::Base
 
     end
   end
+=end
 end
 

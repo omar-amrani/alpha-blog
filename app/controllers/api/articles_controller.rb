@@ -1,7 +1,5 @@
 class Api::ArticlesController < Api::ApiController
   before_action :get_article, only: [:show,:update, :destroy]
-  rescue_from ActiveRecord::RecordNotFound, :with => :categories_exist?
-
 
   def get_article
     if !current_user.admin?
@@ -35,7 +33,6 @@ class Api::ArticlesController < Api::ApiController
     article=current_user.articles.new(article_params)
     article.user = current_user
     article.categories = set_categories
-
     if article.save
       render status: 200, json: {
           message: "Article created successfully",
@@ -46,6 +43,7 @@ class Api::ArticlesController < Api::ApiController
           errors: article.errors }.to_json
     end
   end
+
 
 
   def update
