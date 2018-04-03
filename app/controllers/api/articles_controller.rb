@@ -80,7 +80,7 @@ class Api::ArticlesController < Api::ApiController
 
   def set_categories
 
-    params[:category_ids].map {|x| Category.find(x) }
+    params[:category_ids].map {|x| Category.find_by(name: x) }
 
   end
 
