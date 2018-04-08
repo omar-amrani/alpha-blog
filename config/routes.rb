@@ -7,7 +7,9 @@ Rails.application.routes.draw do
   get 'kb/article-b' , to: 'pages#articleb'
   get 'kb/test/article-c' , to: 'pages#articlec'
   get 'kb/test' , to: 'pages#test'
-  resources :articles
+  resources :articles do
+    collection { post :import }
+  end
   get 'signup', to: 'users#new'
   get 'login', to: 'sessions#new'
   post 'login', to: 'sessions#create'
