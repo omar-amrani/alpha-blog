@@ -65,18 +65,6 @@ class ArticlesController < ApplicationController
 
   end
 
-  def import
-
-    CSV.foreach(params[:file].path, headers: true) do |row|
-      puts row.to_hash
-      @article=Article.new(row.to_hash)
-      @article.user = current_user
-      @article.save
-    end
-    flash[:success] = "Articles were successfully added"
-    redirect_to articles_path
-
-  end
 
   private
 

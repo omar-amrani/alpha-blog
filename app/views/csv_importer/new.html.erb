@@ -1,12 +1,13 @@
+<%= render 'shared/errors', obj: @article %>
 <div class="csv" >
-  <%= form_tag import_articles_path, multipart: true do %>
+  <%= form_tag articles_importer_path, multipart: true do %>
     <h1 align="center">Import Articles</h1>
     <div class=" form-group col-sm-offset-2">
       <%= file_field_tag :file, class: "control-label" %>
     </div>
-      <div class="form-group col-sm-offset-2">
+    <div class="form-group col-sm-offset-2">
       <%= submit_tag "Upload Articles", class: "btn btn-primary" %>
-      </div>
+    </div>
     </div>
   <% end %>
-</div>
+  </div>

@@ -3,13 +3,13 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
   get 'kb', to: 'pages#kb'
+  get 'articles/importer', to: 'csv_importer#new'
+  post 'articles/importer', to: 'csv_importer#import'
   get 'kb/article-a' , to: 'pages#articlea'
   get 'kb/article-b' , to: 'pages#articleb'
   get 'kb/test/article-c' , to: 'pages#articlec'
   get 'kb/test' , to: 'pages#test'
-  resources :articles do
-    collection { post :import }
-  end
+  resources :articles
   get 'signup', to: 'users#new'
   get 'login', to: 'sessions#new'
   post 'login', to: 'sessions#create'
