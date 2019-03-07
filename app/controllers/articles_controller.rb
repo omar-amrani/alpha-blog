@@ -5,7 +5,8 @@ class ArticlesController < ApplicationController
 
   def index
 
-    @articles = Article.paginate(page: params[:page], per_page: 26)
+    @articles = Article.paginate(page: params[:page], per_page: 18)
+
     #test youo
     # another test woop woop
     # another test 6787
