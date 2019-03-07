@@ -7,6 +7,7 @@ class ArticlesController < ApplicationController
 
     @articles = Article.paginate(page: params[:page], per_page: 5)
     #test
+    # another test
   end
 
 
