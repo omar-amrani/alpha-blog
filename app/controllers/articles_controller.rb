@@ -5,13 +5,14 @@ class ArticlesController < ApplicationController
 
   def index
 
-    @articles = Article.paginate(page: params[:page], per_page: 20)
+    @articles = Article.paginate(page: params[:page], per_page: 26)
     #test youo
     # another test woop woop
     # another test 6787
     # Yay
+    t = "yes"
     # true
-    # true fine here
+
   end
 
 
