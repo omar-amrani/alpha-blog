@@ -19,6 +19,7 @@ class ArticlesController < ApplicationController
   def new
 
     @article = Article.new
+    #testing here
 
   end
 
