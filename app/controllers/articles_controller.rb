@@ -4,14 +4,7 @@ class ArticlesController < ApplicationController
   before_action :require_same_user, only: [:edit, :update, :destroy]
 
   def index
-
     @articles = Article.paginate(page: params[:page], per_page: 5)
-    #test youo
-    # another test woop woop
-    # another test 6787
-    # Yay
-    # true
-    # true fine here
   end
 
 
@@ -19,7 +12,6 @@ class ArticlesController < ApplicationController
   def new
 
     @article = Article.new
-    #testing here
 
   end
 
