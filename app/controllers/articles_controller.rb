@@ -8,10 +8,6 @@ class ArticlesController < ApplicationController
     @articles = Article.paginate(page: params[:page], per_page: 5)
     #test youo
     # another test woop woop
-    # another test 6787
-    # Yay
-    # true
-    # true fine here
   end
 
 
